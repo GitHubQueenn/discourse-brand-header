@@ -1,8 +1,8 @@
 import Component from "@glimmer/component";
-import { service } from "@ember/service";
-import not from "truth-helpers/helpers/not";
-import or from "truth-helpers/helpers/or";
+import { inject as service } from "@ember/service";
 import BrandHeaderContents from "./brand-header-contents";
+import or from "truth-helpers/helpers/or";
+import not from "truth-helpers/helpers/not";
 
 export default class BrandHeaderContainer extends Component {
   @service site;
